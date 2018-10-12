@@ -1,0 +1,11 @@
+<Alloy>
+    <Window>
+      <View id="vista_superior">
+        <LisView id="Elemento_lista">
+         <ListSection name="elemen"></ListSection>
+        </LisView>
+      </View>
+    </Window>
+</Alloy>
+
+ 

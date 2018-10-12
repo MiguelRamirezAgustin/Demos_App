@@ -1,0 +1,32 @@
+<Alloy>
+	<Window class="container">	
+		<View id="view_general">
+			 <ScrollView id="scroll">
+				<Label id="lb_uno"></Label>
+				<Label id="lb_dos"></Label>
+				<Label id="lb_imageview"></Label>
+				<Label id="lb_progresbar"></Label>
+				<Label id="lb_lisview"></Label>
+				<Label id="lb_switch"></Label>
+			</ScrollView>
+		</View>	
+		<View id="view_intermedia">
+			<ScrollableView id="sacrollable">
+				<View id="view1" backgroundColor="#123">
+					<Label>Vista uno "ScrollableView"</Label>
+				</View>
+				<View id="view2" backgroundColor="#246">
+					<Label> vista dos "ScrollableView"</Label>
+				</View>
+				<View id="view3" backgroundColor="#48b">
+					<Label>vista tres "ScrollableView"</Label>>
+				</View>
+			</ScrollableView>
+		</View>
+		<View id="view_inferior">
+			<Button onClick="evento" id="btn_evento"></Button>
+			<Button  id="btn_ventana"></Button>
+			<Button  id="btn_siguiente"></Button>
+		</View>
+	</Window>
+</Alloy>

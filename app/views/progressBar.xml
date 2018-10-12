@@ -1,0 +1,13 @@
+<Alloy>
+    <Window>
+      <View id="contenedor">
+          <Button id="btn_progress" onClick="showIndicator"></Button>
+            <ProgressIndicator id="progress_indicador"
+               ns="Ti.UI.Android" platform="android"
+                message="Loading..." min="0" max="10" cancelable="true"
+                location="Ti.UI.Android.PROGRESS_INDICATOR_DIALOG"
+                type="Ti.UI.Android.PROGRESS_INDICATOR_DETERMINANT"
+                color="red" ></ProgressIndicator>
+        </View>
+    </Window>
+</Alloy>

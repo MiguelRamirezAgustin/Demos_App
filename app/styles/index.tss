@@ -1,0 +1,130 @@
+".container": {
+	backgroundColor:"white",
+	layout:"vertical"
+}
+
+"#view_general":{
+	borderColor:"red",
+	layout:"vertinal",
+	width:"100%",
+	height:"60%"
+}
+
+"#view_intermedia":{
+	borderColor:"black",
+	layout:"vertinal",
+	width:"100%",
+	height:"30%"
+}
+
+"#view_inferior":{
+	backgroundColor:"yellow",
+	width:"100%",
+	height:"10%",
+	layout:"horizontal"
+}
+
+"#btn_evento":{
+	width:"20%",
+	height:"30%",
+	backgroundColor:"white",
+	title:"Evento",
+	color:"black",
+	left:"2%",
+	top:"25%",
+	borderRadius:"5%"
+}
+
+"#btn_ventana":{
+	width:"20%",
+	height:"40%",
+	backgroundColor:"white",
+	title:"ImagView",
+	color:"black",
+	left:"10%",
+	top:"25%",
+	borderRadius:"5%"
+}
+
+"#btn_siguiente":{
+	width:"25%",
+	height:"30%",
+	backgroundColor:"white",
+	title:"siguiente",
+	color:"black",
+	left:"15%",
+	top:"25%",
+	borderRadius:"5%"
+	
+}
+
+"#lb_uno": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	text:"Ejemplo",
+	top:"2%"
+}
+
+"#lb_dos": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	text:"Seleccionar",
+	top:"5%"
+}
+
+"#lb_imageview": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	text:"ImagView",	
+	top:"8%"
+}
+
+"#lb_progresbar": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",	
+	text:"ProgressBar",
+	top:"11%"
+}
+
+"#lb_lisview": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	text:"LisView",
+	top:"14%"
+}
+
+"#lb_switch": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	text:"Switch",
+	top:"17%"
+}
+
+"#scroll":{
+	contentWidth:"Ti.UI.SIZE",
+	contentHeight:"Ti.UI.SIZE",
+	width:"100%",
+	height:"100%",
+	backgroundColor:"#ff0000",
+	layout:"vertical"
+}
+
+"#sacrollable":{
+	showPagingControl:"true"
+}
+
+// "#btn_color": {
+// 	width: Ti.UI.SIZE,
+// 	height: Ti.UI.SIZE,
+// 	color: "#000",
+// 	text:"Color",
+// 	top:"55%"
+// }
+
+

@@ -1,0 +1,23 @@
+"#windows_principal":{
+	backgroundColor:"write"
+}
+
+".container" : {
+	width:"100%",
+	height:"100%",
+	backgroundImage:'/images/universo.jpg'
+}
+
+"#image":{
+	image:'/images/aereo.png',
+	height:"10%",
+	width:"15%"
+}
+
+"#lb_avion": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "yellow",
+	text:"Pulsa la imagen",
+	top:"90%"
+}
