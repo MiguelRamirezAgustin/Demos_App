@@ -25,8 +25,6 @@
 		</View>
 		<View id="view_inferior">
 			<Button onClick="evento" id="btn_evento"></Button>
-			<Button  id="btn_ventana"></Button>
-			<Button  id="btn_siguiente"></Button>
 		</View>
 	</Window>
 </Alloy>

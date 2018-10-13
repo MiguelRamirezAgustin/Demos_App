@@ -1,5 +1,7 @@
 <Alloy>
-	<View class="container">
-	  <Switch id="sich_basico"  value="true" onChange="cambiostar"></Switch>
-	</View>
+	<Window>	
+		<View class="container">
+		  <Switch id="sich_basico"  value="true" onChange="cambiostar"></Switch>
+		</View>
+	</Window>
 </Alloy>

@@ -22,7 +22,7 @@ $.lb_progresbar.addEventListener('click', function(e){
 });
 
 $.lb_switch.addEventListener('click', function(e){
-    var swich= Alloy.createController('switch').getView();
+    var swich= Alloy.createController('switchs').getView();
     swich.open();
 });
 
@@ -70,15 +70,13 @@ colorDialog.addEventListener("click",function(e){
         }else if(e.index === 1){
           $.btn_color.style.setBorderColor=('red');
         }
-
-    //Access the button index via e.index
-    //Use that index with e.source.buttonNames to return th button name tapped: e.source.buttonNames[e.index]
     }else{
         label.text = "Aww shucks...";
     }
 
 });
 
+//evento del boton
 $.lb_dos.addEventListener("click",function(e){
     colorDialog.show();
 });
