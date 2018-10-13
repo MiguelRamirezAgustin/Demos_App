@@ -3,5 +3,4 @@ function cambiostar(e){
     Ti.API.info("opciones" + $.swich_basico.value);
 }
 
-
 var args = $.args;

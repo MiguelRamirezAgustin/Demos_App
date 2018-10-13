@@ -3,7 +3,7 @@
 		<View id="view_general">
 			 <ScrollView id="scroll">
 				<Label id="lb_uno"></Label>
-				<Label id="lb_dos"></Label>
+				<Label id="lb_optionDialogo"></Label>
 				<Label id="lb_imageview"></Label>
 				<Label id="lb_progresbar"></Label>
 				<Label id="lb_lisview"></Label>
@@ -24,7 +24,7 @@
 			</ScrollableView>
 		</View>
 		<View id="view_inferior">
-			<Button onClick="evento" id="btn_evento"></Button>
+			
 		</View>
 	</Window>
 </Alloy>

@@ -24,18 +24,6 @@
 	layout:"horizontal"
 }
 
-"#btn_evento":{
-	width:"20%",
-	height:"30%",
-	backgroundColor:"white",
-	title:"Evento",
-	color:"black",
-	left:"50%",
-	top:"25%",
-	borderRadius:"5%",
-	
-}
-
 
 "#lb_uno": {
 	width: Ti.UI.SIZE,
@@ -45,7 +33,7 @@
 	top:"2%"
 }
 
-"#lb_dos": {
+"#lb_optionDialogo": {
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
 	color: "#000",

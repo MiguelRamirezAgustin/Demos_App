@@ -1,0 +1,7 @@
+<Alloy>
+	<Window>	
+		<View class="container">
+			<Label id="Dialogo"></Label>
+		</View>
+	</Window>
+</Alloy>
