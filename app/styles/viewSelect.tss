@@ -9,6 +9,6 @@
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
 	color: "#000",	
-	text:"Seleccionar",
-	top:"20%%"
+	text:"Cambiar el color de la pantalla",
+	top:"10%"
 }

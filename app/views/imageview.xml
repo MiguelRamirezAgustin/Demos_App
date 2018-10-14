@@ -1,5 +1,5 @@
 <Alloy>
-	<Window id="windows_principal">
+	<Window >
 	  <View class="container">
        <ImageView id="image" />
 			 <Label id="lb_avion"></Label>
